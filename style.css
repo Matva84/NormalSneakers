@@ -91,12 +91,11 @@ section.new-drop img {
 
 section.content {
   padding: 2rem;
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 
-  font-size: 3rem;
+  font-size: 1.5rem;
   margin: 3rem 0 5rem 0;
 }
 
