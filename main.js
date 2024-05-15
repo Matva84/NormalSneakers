@@ -1,4 +1,4 @@
-import './style.css'
+import 'style.css'
 
 import { animate, inView } from "motion"
 import {
@@ -19,7 +19,7 @@ import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
 import { GlitchPass } from 'three/addons/postprocessing/GlitchPass.js';
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
-import { NoiseShader} from './noise-shader'
+import { NoiseShader} from 'noise-shader'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 
 const sneakerTag = document.querySelector('section.sneaker')
